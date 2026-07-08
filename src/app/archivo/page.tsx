@@ -20,6 +20,7 @@ export default function ArchivePage() {
               name={artist.name}
               discipline={artist.discipline}
               city={artist.city}
+              slug={artist.slug}
             />
           ))}
         </div>
